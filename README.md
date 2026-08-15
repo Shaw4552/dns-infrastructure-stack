@@ -1,5 +1,12 @@
 # DNS Infrastructure Stack (Pi-hole + Unbound)
 
+> **Portfolio Progression Project**
+>
+> This repository documents an earlier stage of my DNS infrastructure work, focused on Pi-hole, Unbound, centralized resolution, internal service discovery, and redundancy planning.
+>
+> The current integrated DNS architecture is documented here:
+> [Enterprise-Style Homelab Infrastructure](https://github.com/Shaw4552/homelab-public)
+
 ## Overview
 
 This project documents the design and implementation of a centralized DNS infrastructure stack using Pi-hole and Unbound, built to simulate production-grade DNS filtering and resolution services.
@@ -53,7 +60,7 @@ This project documents the design and implementation of a centralized DNS infras
 
 ---
 
-## High Availability (Planned)
+## Redundancy Planning at This Stage
 
 - Primary DNS node
 - Secondary DNS node
@@ -71,7 +78,7 @@ This project documents the design and implementation of a centralized DNS infras
 
 ---
 
-## Future Improvements
+## Improvements Identified at This Stage
 
 - Automated policy sync (CI/CD)
 - Health checks and failover automation
